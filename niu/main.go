@@ -107,8 +107,7 @@ func GetRankingInfo(gid int64, t bool) (BaseInfos, error) {
 		err  error
 	)
 
-
-  niuOfGroup, err := db.getAllNiuNiuOfGroup(gid)
+	niuOfGroup, err := db.getAllNiuNiuOfGroup(gid)
 	if err != nil {
 		return BaseInfos{}, err
 	}
@@ -121,7 +120,7 @@ func GetRankingInfo(gid int64, t bool) (BaseInfos, error) {
 		return nil, ErrNoGirls
 	}
 	list.sort(t)
-  
+
 	f := make(BaseInfos, len(list))
 	for i, info := range list {
 		f[i] = BaseInfo{

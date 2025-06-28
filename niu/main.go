@@ -4,13 +4,14 @@ package niu
 import (
 	"errors"
 	"fmt"
-	"github.com/glebarez/sqlite"
-	"github.com/google/uuid"
-	"gorm.io/gorm"
 	"os"
 	"strconv"
 	"strings"
 	"sync"
+
+	"github.com/glebarez/sqlite"
+	"github.com/google/uuid"
+	"gorm.io/gorm"
 
 	"github.com/FloatTech/floatbox/file"
 
@@ -82,7 +83,6 @@ func init() {
 	}
 
 	db = sdb
-
 }
 
 // DeleteWordNiuNiu ...

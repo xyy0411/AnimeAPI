@@ -4,12 +4,13 @@ package niu
 import (
 	"errors"
 	"fmt"
-	"github.com/google/uuid"
-	"gorm.io/gorm"
 	"math"
 	"math/rand"
 	"sort"
 	"time"
+
+	"github.com/google/uuid"
+	"gorm.io/gorm"
 )
 
 var (

@@ -4,12 +4,13 @@ package niu
 import (
 	"errors"
 	"fmt"
-	"github.com/google/uuid"
-	"github.com/jinzhu/gorm"
 	"os"
 	"strconv"
 	"strings"
 	"sync"
+
+	"github.com/google/uuid"
+	"github.com/jinzhu/gorm"
 
 	"github.com/FloatTech/floatbox/file"
 
@@ -81,7 +82,6 @@ func init() {
 	}
 
 	db = sdb.LogMode(false)
-
 }
 
 // DeleteWordNiuNiu ...

@@ -2,6 +2,7 @@ package niu
 
 import (
 	"fmt"
+
 	"github.com/RomiChan/syncx"
 	"github.com/jinzhu/gorm"
 )

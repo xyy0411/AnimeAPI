@@ -150,7 +150,7 @@ func (tts *TTS) Speak(_ int64, text func() string) (fileName string, err error) 
 	})
 	defer cl()
 	data, err := web.RequestDataWithHeaders(
-		web.NewTLS12Client(), ttsapi, "POST", func(r *http.Request) error {
+		web.NewDefaultClient(), ttsapi, "POST", func(r *http.Request) error {
 			r.Header.Add("accept", "*/*")
 			r.Header.Add("content-length", strconv.Itoa(len(q)))
 			r.Header.Add("content-type", "application/x-www-form-urlencoded; charset=UTF-8")

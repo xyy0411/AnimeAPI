@@ -1,35 +1,35 @@
 module github.com/FloatTech/AnimeAPI
 
-go 1.20
+go 1.24.0
 
 require (
-	github.com/FloatTech/floatbox v0.0.0-20250513111443-adba80e84e80
+	github.com/FloatTech/floatbox v0.0.0-20260408141530-dc0fdf584f62
 	github.com/FloatTech/sqlite v1.7.2
 	github.com/RomiChan/syncx v0.0.0-20240418144900-b7402ffdebc7
 	github.com/antchfx/htmlquery v1.3.4
 	github.com/corona10/goimagehash v1.1.0
 	github.com/fumiama/go-base16384 v1.7.0
-	github.com/fumiama/terasu v0.0.0-20250409134005-3ac40e382e6c
+	github.com/fumiama/terasu v0.0.0-20250930151601-1d9b679c36c2
 	github.com/google/uuid v1.6.0
 	github.com/jinzhu/gorm v1.9.16
 	github.com/pkg/errors v0.9.1
 	github.com/pkumza/numcn v1.0.0
 	github.com/sirupsen/logrus v1.9.3
-	github.com/stretchr/testify v1.9.0
+	github.com/stretchr/testify v1.11.1
 	github.com/tidwall/gjson v1.18.0
-	github.com/wdvxdr1123/ZeroBot v1.8.2-0.20250921063512-13752a73d444
+	github.com/wdvxdr1123/ZeroBot v1.8.2-0.20251002074418-56567b7fc282
 	golang.org/x/image v0.21.0
 )
 
 require (
-	github.com/FloatTech/ttl v0.0.0-20240716161252-965925764562 // indirect
+	github.com/FloatTech/ttl v0.0.0-20250224045156-012b1463287d // indirect
 	github.com/antchfx/xpath v1.3.3 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
 	github.com/fumiama/cron v1.3.0 // indirect
 	github.com/fumiama/go-registry v0.2.7 // indirect
 	github.com/fumiama/go-simple-protobuf v0.2.0 // indirect
-	github.com/fumiama/gofastTEA v0.0.10 // indirect
+	github.com/fumiama/gofastTEA v0.1.3 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
@@ -42,7 +42,7 @@ require (
 	github.com/tidwall/pretty v1.2.0 // indirect
 	golang.org/x/net v0.33.0 // indirect
 	golang.org/x/sys v0.30.0 // indirect
-	golang.org/x/text v0.22.0 // indirect
+	golang.org/x/text v0.29.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	modernc.org/libc v1.61.0 // indirect
 	modernc.org/mathutil v1.6.0 // indirect

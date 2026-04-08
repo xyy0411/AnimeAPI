@@ -25,7 +25,7 @@ type Result struct {
 // ASCII2d ...
 func ASCII2d(image string) (r []*Result, err error) {
 	const api = "https://ascii2d.net/search/uri"
-	client := web.NewTLS12Client()
+	client := web.NewDefaultClient()
 	// 包装请求参数
 	data := url.Values{}
 	data.Set("uri", image) // 图片链接

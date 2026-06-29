@@ -1,6 +1,6 @@
 module github.com/FloatTech/AnimeAPI
 
-go 1.24.0
+go 1.25
 
 require (
 	github.com/FloatTech/floatbox v0.0.0-20260408141530-dc0fdf584f62
